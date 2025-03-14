@@ -64,7 +64,7 @@ The Apache Airflow DAG (`weather_dag.py`) coordinates the following tasks:
 ### DAG Structure 
 The workflow uses Airflow's TaskGroup for parallel processing, with dependencies ensuring proper execution order
 
-![Workflow_DAG](Weather_DAG.png)
+![Workflow_DAG](DAG_Workflow.png)
 
 ### Database Tables
   - `weather_data`: Stores processed weather information
